@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Myfin</title>
+    <link rel="stylesheet" href="CSS/media.css">
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container table__responsive">
+            <div class="table__content">
+                <h1 class="table__title">Система финансирование</h1>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Название кредита</th>
+                            <th>Ставка (%)</th>
+                            <th>Срок (лет)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td data-label="Кредит">Потребительский</td>
+                            <td data-label="Проценты">10% годовых</td>
+                            <td data-label="Годы">10 лет</td>
+                        </tr>
+                        <tr>
+                            <td data-label="Кредит">На рефинансирование</td>
+                            <td data-label="Проценты">12.5% годовых</td>
+                            <td data-label="Годы">7 лет</td>
+                        </tr>
+                        <tr>
+                            <td data-label="Кредит">Для покупки автомобиля</td>
+                            <td data-label="Проценты">8% годовых</td>
+                            <td data-label="Годы">12 лет</td>
+                        </tr>
+                        <tr>
+                            <td data-label="Кредит">На финансирование недвижимости</td>
+                            <td data-label="Проценты">13.5% годовых</td>
+                            <td data-label="Годы">20 лет</td>
+                        </tr>
+                        <tr>
+                            <td data-label="Кредит">Лизинг</td>
+                            <td data-label="Проценты">15% годовых</td>
+                            <td data-label="Годы">5 лет</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <button class="table__btn">Оформить заявку</button>
+            </div>
+        </div>
+    </div>
+    <div class="modal site__modal">
+       <div class="modal__content site-modal__content">
+        <button class="modal__close btn-reset"></button>
+        <h2 class="modal__title">
+            Оформление на консультацию
+        </h2>
+        <form class="modal__form" action="#"  >
+            <div class="form__floating">
+                <input class="modal__input" id="Name" type="text" placeholder="Имя">
+                <label class="modal__label">
+                    Имя
+                    <span class="modal__label">*</span>
+                </label>
+            </div>
+            <div class="form__floating">
+                <input class="modal__input" id="Surname" type="text" placeholder="Фамилия">
+                <label class="modal__label">
+                    Фамилия
+                    <span class="modal__label">*</span>
+                </label>
+            </div>
+            <div class="form__floating">
+                <input class="modal__input" id="Phone" type="number" placeholder="Телефон">
+                <label class="modal__label">
+                    Телефон
+                    <span class="modal__label">*</span>
+                </label>
+            </div>
+            <div class="modal__credit--name">
+                <p class="modal__btn--name modal__btn--credit">
+                    Название кредита
+                </p>
+                <select class="credit__select" id="consumer" name="credit">
+                    <option  >Потребительский</option>
+                    <option >На рефинансирование</option>
+                    <option  >Для покупки автомобиля</option>
+                    <option  >На финансирование недвижимости</option>
+                    <option  >Лизинг</option>
+                  </select>
+            </div>
+            <button class="btn-reset form__btn--name">
+                Отправить заявку
+            </button>
+        </form>
+       </div>
+    </div>
+    <script defer src="JS/script.js"></script>
+</body>
+</html>
