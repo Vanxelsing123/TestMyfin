@@ -6,7 +6,7 @@
 Проект создан мной с 0 дизайн и информация вымышленны, проект содержит кастомные, интерактивные элементы.
 
 # Запуск приложения
-Перейдите по [ссылке](https://vanxelsing123.github.io/Blanchard/) GitHub pages
+Перейдите по [ссылке]([https://vanxelsing123.github.io/Blanchard/](https://vanxelsing123.github.io/TestMyfin/)) GitHub pages
 
 Или, необходимо склонировать все содержимое репозитория git clone  или скачать ZIP архив репозитория. Затем открыть файл index.html, находящийся в корне проекта.
 
